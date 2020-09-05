@@ -1,0 +1,134 @@
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "location": {
+        "lat": -20.38598,
+        "lng": 78.54
+    },
+    "accuracy": 50.0,
+    "name": "Vaibhav",
+    "phone_number": "7846546452",
+    "address": "At Post Devwadi",
+    "types": [
+        "Shoes",
+        "Goggles",
+        "Watches"
+    ],
+    "website": "www.coolmonks.com/",
+    "language": "Marathi"
+}
+HTTP/1.1 200 OK
+Date: Sat, 05 Sep 2020 07:22:30 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "335411f17197eb8d7eb0a431adc48926",
+    "scope": "APP",
+    "reference": "d4616cb8ad25d26e3394bf36a33218b4d4616cb8ad25d26e3394bf36a33218b4",
+    "id": "d4616cb8ad25d26e3394bf36a33218b4"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "location": {
+        "lat": -20.38598,
+        "lng": 78.54
+    },
+    "accuracy": 50.0,
+    "name": "Adam",
+    "phone_number": "7846546452",
+    "address": "Times square, UK",
+    "types": [
+        "Shoes",
+        "Goggles",
+        "Watches"
+    ],
+    "website": "www.coolmonks.com/",
+    "language": "English"
+}
+HTTP/1.1 200 OK
+Date: Sat, 05 Sep 2020 07:22:32 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "08c26b33efc9a34ca1016cbd03edfc4e",
+    "scope": "APP",
+    "reference": "6fa73e865c52cb77ff35ba04e3f656616fa73e865c52cb77ff35ba04e3f65661",
+    "id": "6fa73e865c52cb77ff35ba04e3f65661"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=08c26b33efc9a34ca1016cbd03edfc4e
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=08c26b33efc9a34ca1016cbd03edfc4e
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Sat, 05 Sep 2020 07:22:33 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 229
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-20.38598",
+        "longitude": "78.54"
+    },
+    "accuracy": "50",
+    "name": "Adam",
+    "phone_number": "7846546452",
+    "address": "Times square, UK",
+    "types": "Shoes,Goggles,Watches",
+    "website": "www.coolmonks.com/",
+    "language": "English"
+}
